@@ -1,0 +1,55 @@
+.images-couple img {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;	
+  margin-bottom: 8%;
+}
+
+.man,
+.woman {
+  display: inline-block;
+  position: absolute;
+}
+
+.man,
+.woman {
+  text-align: center;
+  font:900 44px Dosis, Arial;
+  margin-top: 5%;
+}
+
+.woman {
+  right: 10%;
+  top: 25%;
+}
+
+.man {
+  top: 25%;
+  left: 10%;
+}
+
+.name-couple {
+  font-family: "FS North Land";
+  font-size: 140%;
+}
+
+.image_couple_moblie {
+  display: none;
+}
+
+@media (max-width:996px){
+  .man,
+  .woman {
+    display: none;
+  }
+
+  .image_couple_moblie {
+    display: block;
+  }
+}
+
+/*clip couple*/
+.clip-couple  iframe{
+  width: 100%;
+  height: 600px;
+}
